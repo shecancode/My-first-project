@@ -20,16 +20,7 @@ body {
   padding-right: 70px;
 }
 
-.col-sm-2 {
-  display: flex;
-  flex-flow: wrap;
-  width: 1.5em;                                                                                                                                                                                                                                                                                                                                          
-  height: 12em;
-  margin: 10px 10px;                                   
-  /* background-image: url("../images/knowsnothing.png");
-  background-size: contain; 
-  background-repeat: no-repeat; */
-}
+ 
 
 /* .pic {
   background-image: url("../images/tyrion.png");

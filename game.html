@@ -9,115 +9,133 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> 
   <script type="text/javascript" src="js/game.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="css/game.css">
   <title>Game</title>
 </head>
 
 <body>
+
+
+  <div>
+    <h2 class="whos-turn">
+      It's player one's turn
+    </h2>
+  </div>
  
       <div class="container full-page">
         <div class="row first-row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-2">
-            <div class="card1">
+          <div class="col-sm-1 player-health">
+            <h4>Player Health:</h4>
+            <p>X</p>
+
+
+          </div>
+          <div class="col-sm-2" id="card">
+            <div class="card">
               <img src="images/sword.jpg">
-              <p>Name: <span>sword</span></p>
-              <p>Description: <span>a random sword made of steel</span></p>
-              <p>Damage: <span>5</span></p>
+              <p class="name">Name: <span>sword</span></p>
+              <p class="description">Description: <span>a random sword made of steel</span></p>
+              <p class="damage">Damage: <span>5</span></p>
+
+            </div>
+            <div>
 
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card2">
+            <div class="card">
                 <img src="images/longclaw.jpg">
-                <p>Name: <span>longclaw</span></p>
-                <p>Description: <span>a fine sword made of valyrian steel</span></p>
-                <p>Damage: <span>15</span></p>
+                <p class="name">Name: <span>longclaw</span></p>
+                <p class="description">Description: <span>a fine sword made of valyrian steel</span></p>
+                <p class="damage">Damage: <span>15</span></p>
              
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card3">
+            <div class="card">
                 <img src="images/shortbow.jpg">
-                <p>Name: <span>bow</span></p>
-                <p>Description: <span> random short bow</span></p>
-                <p>Damage: <span>5</span></p>
+                <p class="name">Name: <span>bow</span></p>
+                <p class="description">Description: <span> random short bow</span></p>
+                <p class="damage">Damage: <span>5</span></p>
 
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card4">
+            <div class="card">
                 <img src="images/longbow.jpg">
-                <p>Name: <span>ygritte's bow</span></p>
-                <p>Description: <span>a long bow that never misses its target</span></p>
-                <p>Damage: <span>15</span></p>
+                <p class="name">Name: <span>ygritte's bow</span></p>
+                <p class="description">Description: <span>a long bow that never misses its target</span></p>
+                <p class="damage">Damage: <span>15</span></p>
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card5">
+            <div class="card">
                 <img src="images/axe.jpg">
-                <p>Name: <span>battleaxe</span></p>
-                <p>Description: <span>a long bow that never misses its targett</span></p>
-                <p>Damage: <span>10</span></p>
+                <p class="name">Name: <span>battleaxe</span></p>
+                <p class="description">Description: <span>a long bow that never misses its targett</span></p>
+                <p class="damage">Damage: <span>10</span></p>
 
       
             </div>
           </div>
-          <div class="col-sm-1"></div>
+          <div class="col-sm-1">
+
+
+
+          </div>
         </div>
 
         <div class="row second-row">
-            <div class="col-sm-1"></div>
+            <div class="col-sm-1 player-health">
+                <h4>Player Health:</h4>
+                <p>X</p>
+            </div>
             <div class="col-sm-2">
-              <div class="card1">
+              <div class="card">
                 <img src="images/sword.jpg">
-                <p>Name:        <span>sword</span>      </p> 
-                <p>Description:    <span>a random sword made of steel</span> </p>
-                <p>Damage: <span>5</span></p>
+                <p class="name">Name:        <span>sword</span>      </p> 
+                <p class="description">Description:    <span>a random sword made of steel</span> </p>
+                <p class="damage">Damage: <span>5</span></p>
               </div>
             </div>
             <div class="col-sm-2">
-              <div class="card2">
+              <div class="card">
                   <img src="images/longclaw.jpg">
-                  <p>Name: <span>longclaw</span></p>
-                  <p>Description: <span>a fine sword made of valyrian steel</span></p>
-                  <p>Damage: <span>15</span></p>
+                  <p class="name">Name: <span>longclaw</span></p>
+                  <p class="description">Description: <span>a fine sword made of valyrian steel</span></p>
+                  <p class="damage">Damage: <span>15</span></p>
               </div>
             </div>
             <div class="col-sm-2">
-              <div class="card3">
+              <div class="card">
                   <img src="images/shortbow.jpg">
-                  <p>Name:<span>bow</span></p>
-                  <p>Description: <span>a random short bow</span></p>
-                  <p>Damage: <span>5</span></p>
+                  <p class="name">Name:<span>bow</span></p>
+                  <p class="description">Description: <span>a random short bow</span></p>
+                  <p class="damage"> Damage: <span>5</span></p>
   
               </div>
             </div>
             <div class="col-sm-2">
-              <div class="card4">
+              <div class="card">
                   <img src="images/longbow.jpg">
-                  <p>Name:<span>ygritte's bow</span></p>
-                  <p>Description: <span>a long bow that never misses its target</span></p>
-                  <p>Damage: <span>15</span></p>
+                  <p class="name">Name:<span>ygritte's bow</span></p>
+                  <p class="description">Description: <span>a long bow that never misses its target</span></p>
+                  <p class="damage">Damage: <span>15</span></p>
   
               </div>
             </div>
             <div class="col-sm-2">
-              <div class="card5">
+              <div class="card">
                   <img src="images/axe.jpg">
-                  <p>Name: <span>battleaxe</span></p>
-                  <p>Description: <span>a random sword made of steel</span></p>
-                  <p>Damage: <span>5</span></p>
+                  <p class="name">Name: <span>battleaxe</span></p>
+                  <p class="description">Description: <span>a random sword made of steel</span></p>
+                  <p class="damage">Damage: <span>5</span></p>
               </div>
             </div>
             <div class="col-sm-1"></div>
           </div>
 
-
-
-       
-      
-               
                 
       
               </div>
